@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  azpagent:
+    build: ./agent
+    env_file:
+      - azp.env
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
