@@ -8,4 +8,4 @@
 ## Useful commands (powershell)
 | Description   | Command |
 |----------|:-------------|
-| Run [k9s](https://k9scli.io/) (Kubernetes CLI To Manage Your Clusters In Style!)|  docker run --rm -it -v $env:USERPROFILE\.kube\config:/root/.kube/config derailed/k9s |
+| Run [k9s](https://k9scli.io/) (Kubernetes CLI To Manage Your Clusters In Style!)|  docker run --rm -it -v ~/.kube/config:/root/.kube/config derailed/k9s |
